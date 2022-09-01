@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- <link rel="stylesheet" href="./data.json"> -->
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 50px; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="wrap">
+    <div class="dashboard">
+      <div class="profileBlk">
+        <div class="profile">
+          <p class="img"><img src="/images/image-jeremy.png" alt=""></p>
+          <div class="textBlk">
+            <p class="txt">Report for</p>
+            <p class="name">Jeremy Robson</p>
+          </div>
+        </div>
+        <ul class="filter">
+          <li><a href="javascript:void(0)" onclick="changeFilter('daily')">Daily</a> </li>
+          <li><a href="javascript:void(0)" onclick="changeFilter('weekly')" class="active">Weekly</a></li>
+          <li><a href="javascript:void(0)" onclick="changeFilter('monthly')">Monthly</a></li>
+        </ul>
+      </div>
+      <div class="timeRecord">
+        <!-- <div class="activity Work">
+          <div class="details">
+            <a href="#">
+              <p class="titleBlk">
+                <span class="title">Work</span>
+                <span class="menu"><img src="/images/icon-ellipsis.svg" alt=""></span>
+              </p>
+              <p class="hours">32hrs</p>
+              <p class="summary">Last Week - 36hrs</p>
+            </a>
+          </div>
+        </div>
+        
+        <div class="activity Play">
+          <div class="details">
+            <a href="#">
+              <p class="titleBlk">
+                <span class="title">Work</span>
+                <span class="menu"><img src="/images/icon-ellipsis.svg" alt=""></span>
+              </p>
+              <p class="hours">32hrs</p>
+              <p class="summary">Last Week - 36hrs</p>
+            </a>
+          </div>
+        </div>
+        
+        <div class="activity Study">
+          <div class="details">
+            <a href="#">
+              <p class="titleBlk">
+                <span class="title">Work</span>
+                <span class="menu"><img src="/images/icon-ellipsis.svg" alt=""></span>
+              </p>
+              <p class="hours">32hrs</p>
+              <p class="summary">Last Week - 36hrs</p>
+            </a>
+          </div>
+        </div>
+        
+        <div class="activity Exercise">
+          <div class="details">
+            <a href="#">
+              <p class="titleBlk">
+                <span class="title">Work</span>
+                <span class="menu"><img src="/images/icon-ellipsis.svg" alt=""></span>
+              </p>
+              <p class="hours">32hrs</p>
+              <p class="summary">Last Week - 36hrs</p>
+            </a>
+          </div>
+        </div>
+        
+        <div class="activity Social">
+          <div class="details">
+            <a href="#">
+              <p class="titleBlk">
+                <span class="title">Work</span>
+                <span class="menu"><img src="/images/icon-ellipsis.svg" alt=""></span>
+              </p>
+              <p class="hours">32hrs</p>
+              <p class="summary">Last Week - 36hrs</p>
+            </a>
+          </div>
+        </div>
+        
+        <div class="activity Selfcare">
+          <div class="details">
+            <a href="#">
+              <p class="titleBlk">
+                <span class="title">Work</span>
+                <span class="menu"><img src="/images/icon-ellipsis.svg" alt=""></span>
+              </p>
+              <p class="hours">32hrs</p>
+              <p class="summary">Last Week - 36hrs</p>
+            </a>
+          </div>
+        </div> -->
+        
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </div>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
